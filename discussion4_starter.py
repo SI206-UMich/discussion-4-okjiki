@@ -48,7 +48,7 @@ class Rectangle():
         if vars == False:
             return "Invalid input"
         else:
-            return (self.width * self.height)
+            return self.width * self.height
 
 
 
